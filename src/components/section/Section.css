@@ -1,0 +1,93 @@
+
+
+
+.main_section{
+    border:1.5px solid #cdcdb1;
+    border-radius: 10px;
+    width: 95%;
+    padding:10px;
+    margin:1% 2.5%;
+   
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom:10px;
+}
+.cancel{
+    position: absolute;
+    right:0px;
+    cursor: pointer;
+    color: #afaf83;
+
+}
+.buttons{
+    border: 1px solid #cdcdb1;
+    border-radius: 5px;
+    padding: 2px;
+}
+.navbar .button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(68, 70, 69);
+    font-size: larger;
+    cursor: pointer;
+}
+.activeButton{
+    background-color: #00b3b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: larger;
+
+    cursor: pointer;
+}
+
+.selectArea{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.select{
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;
+}
+.number{
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    margin-right: 20px;
+}
+.error{
+    border: 1px solid red;
+}
+
+.state-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.checkBox-area{
+    border: 1px solid red;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+.accordian{
+    text-align: center;
+    width: 500px;
+}

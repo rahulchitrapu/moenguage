@@ -1,0 +1,22 @@
+.activeBtn{
+    background-color:#00b3b3;
+    color: white;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: larger;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button{
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(68, 70, 69);
+    font-size: larger;
+    cursor: pointer;
+}
+.buttons-2{
+    width: 20%;
+}

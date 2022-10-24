@@ -1,0 +1,55 @@
+[{
+    "filters": [
+        {
+            "type": "TTRIBUTE",
+            "condition" : {
+                "field": "AGE",
+                "operator": "BETWEEN",
+                "value": {
+                    "min" : 25,
+                    "max" : 54
+                }
+            }
+        },
+        {
+            "type": "TTRIBUTE",
+            "condition" : {
+                "field": "GENDER",
+                "operator": "EQUAL",
+                "value": {
+                    "value": "MALE"
+                }
+            }
+        }
+    ],
+    "operator": "AND"
+},
+
+
+{
+    "filters": [
+        {
+            "type": "TTRIBUTE",
+            "condition" : {
+                "field": "AGE",
+                "operator": "BETWEEN",
+                "value": {
+                    "min" : 18,
+                    "max" : 45
+                }
+            }
+        },
+        {
+            "type": "TTRIBUTE",
+            "condition" : {
+                "field": "GENDER",
+                "operator": "EQUAL",
+                "value": {
+                    "value": "FEMALE"
+                }
+            }
+        }
+    ],
+    "operator": "AND"
+}
+]
