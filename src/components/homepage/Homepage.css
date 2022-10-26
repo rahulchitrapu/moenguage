@@ -32,12 +32,25 @@
     width: 100px;   
 }
 
-.show_data{
+/* .show_data{
   
     position: absolute;
     right: 3%;
     bottom: 2%;
-}
+} */
 .show_data_btn{
     width: 120px;
+    background-color: #00b3b3;
+    color: white;
 }
+
+
+.end_btns{
+    position: absolute;
+    right: 3%;
+    bottom: 1%;
+    display: flex;
+    /* border:  3px solid red; */
+}
+
+

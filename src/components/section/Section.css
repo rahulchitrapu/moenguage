@@ -91,3 +91,24 @@
     text-align: center;
     width: 500px;
 }
+
+
+
+.inactive_homepage{
+    /* border: 1px solid red; */
+    /* background-color: #6d6d69; */
+    background-color: #efefe6;
+
+}
+
+.inactive_homepage .selectArea{
+    background-color: #efefe6;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    /* width: flex1; */
+}
